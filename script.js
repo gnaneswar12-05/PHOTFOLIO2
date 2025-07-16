@@ -8,7 +8,7 @@ menuitens.addEventListener('click', () => {
   if (Navbar.classList.contains('show')) {
     menuitens.innerHTML = '&times;'; // "X"
   } else {
-    menuitens.innerHTML = '&#9776;'; // Hamburger icon
+    menuitens.innerHTML = '&#9776;'; //9 Hamburger icon
   }
 });
 document.addEventListener('click', (e) => {
